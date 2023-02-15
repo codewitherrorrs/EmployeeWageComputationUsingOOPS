@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            SwitchCase sc = new SwitchCase();
-            sc.switchCase();
+           CalculateMonthlyWage cm = new CalculateMonthlyWage();
+            cm.montlyWage();
         }
     }
 }
