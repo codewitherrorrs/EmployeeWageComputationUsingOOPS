@@ -4,8 +4,8 @@
     {
         public static void Main(string[] args)
         {
-           CalculateMonthlyWage cm = new CalculateMonthlyWage();
-            cm.montlyWage();
+            CalculateAssumeHrs ch = new CalculateAssumeHrs();
+            ch.montlyWage();
         }
     }
 }
