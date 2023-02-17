@@ -9,7 +9,7 @@
             Console.WriteLine("First Company :"+a);
 
             EmployeeWageMultiple e2 = new EmployeeWageMultiple();
-            int b = e1.EmployeeWage("AkadBakad", 20, 20, 100);
+            int b = e2.EmployeeWage("AkadBakad", 20, 20, 100);
             Console.WriteLine("Second Company : "+b);
 
         }
