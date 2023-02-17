@@ -4,8 +4,14 @@
     {
         public static void Main(string[] args)
         {
-            CalculateAssumeHrs ch = new CalculateAssumeHrs();
-            ch.montlyWage();
+            EmployeeWageMultiple e1= new EmployeeWageMultiple();
+            int a = e1.EmployeeWage("BridgeLabz",20,20,100);
+            Console.WriteLine("First Company :"+a);
+
+            EmployeeWageMultiple e2 = new EmployeeWageMultiple();
+            int b = e1.EmployeeWage("AkadBakad", 20, 20, 100);
+            Console.WriteLine("Second Company : "+b);
+
         }
     }
 }
