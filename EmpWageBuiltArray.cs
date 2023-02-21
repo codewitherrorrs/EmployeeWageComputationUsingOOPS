@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWageComputationUsingOOPS
 {
-    public class EmpWageBuiltArray
+    public class EmpWageBuiltArray : icompute
     {
         public const int isPartTime = 1;
         public const int isFullTime = 2;
