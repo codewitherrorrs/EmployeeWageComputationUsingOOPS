@@ -7,7 +7,7 @@
             EmpWageBuiltArray empWageBuiltArray = new EmpWageBuiltArray();
             empWageBuiltArray.addCompanyEmpWage("Dmart", 20, 2, 10);
             empWageBuiltArray.addCompanyEmpWage("Reliance", 20, 2, 10);
-            //empWageBuiltArray.computeEmpWage();
+            empWageBuiltArray.computeEmpWage();
 
         }
     }
