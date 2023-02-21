@@ -58,6 +58,8 @@ namespace EmployeeWageComputationUsingOOPS
                         empHrs = 0;
                         break;
                 }
+                int DailyWage = empHrs * 20;
+                Console.WriteLine("Daily Wage :" + DailyWage);
                 totalEmpHrs += empHrs;
                 Console.WriteLine("Day# : " + totalWorking + " Emp Hrs : " + empHrs);
 
